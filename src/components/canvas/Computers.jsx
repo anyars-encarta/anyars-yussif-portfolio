@@ -24,7 +24,7 @@ const Computers = ({ isMobile }) => {
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
+  const useMobile = () => {
     // Add a linstener for changes to the screen size
     const mediaQuery = window.matchMedia('(max-width: 500px)');
 
@@ -43,6 +43,10 @@ const ComputersCanvas = () => {
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     }
+  };
+
+  useEffect(() => {
+    useMobile();
   }, []);
 
   return (
