@@ -1,0 +1,18 @@
+@keyframes swing {
+    0% {
+      transform: rotate(0deg);
+      color: #fff; /* Initial color */
+    }
+    50% {
+      transform: rotate(15deg);
+      color: #0aa2e9; /* Random color */
+    }
+    100% {
+      transform: rotate(-15deg);
+      color: #00ff00; /* Another random color */
+    }
+  }
+  
+  .swinging {
+    animation: swing 2s ease-in-out infinite alternate;
+  }
