@@ -6,7 +6,7 @@ import { testimonials } from '../constants';
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+    variants={fadeIn("left", "spring", index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <p className='text-white font-black text-[48px]'>"</p>
