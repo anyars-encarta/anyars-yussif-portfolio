@@ -17,7 +17,10 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => { };
-  const handleSubmit = (e) => { };
+  
+  const handleSubmit = (e) => {
+    setLoading(true)
+   };
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
