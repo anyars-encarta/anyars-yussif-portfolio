@@ -12,7 +12,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -21,8 +20,10 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  ruby,
+  postgresql,
+  sqlserver,
+  mysql,
   meta,
   starbucks,
   tesla,
@@ -124,8 +125,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Ruby",
+    icon: ruby,
   },
   {
     name: "React JS",
@@ -156,13 +157,17 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "PostgreSQL",
+    icon: postgresql,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "SQL Server",
+  //   icon: sqlserver,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
 ];
 
 const experiences = [

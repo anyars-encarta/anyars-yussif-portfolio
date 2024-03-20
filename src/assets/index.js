@@ -15,8 +15,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -25,8 +23,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+
+import ruby from "./tech/ruby.png";
+import postgresql from "./tech/postgresql.png";
+import sqlserver from "./tech/sqlserver.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -58,8 +60,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -68,8 +68,11 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
+  ruby,
+  postgresql,
+  sqlserver,
+  mysql,
   meta,
   shopify,
   starbucks,
