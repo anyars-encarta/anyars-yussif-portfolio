@@ -41,8 +41,9 @@ import BMC from "./company/BMC.png";
 import microverse from "./company/microverse.png";
 
 import githubprofilefinder from "./githubprofilefinder.png";
-import qrcodegenerator from "./qrcodegenerator.png"
-import jobit from "./jobit.png";
+import qrcodegenerator from "./qrcodegenerator.png";
+import scrollprogressindicator from "./scrollprogressindicator.png";
+import imageslider from "./imageslider.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -82,7 +83,8 @@ export {
   tesla,
   githubprofilefinder,
   qrcodegenerator,
-  jobit,
+  scrollprogressindicator,
+  imageslider,
   tripguide,
   DVLA,
   GHS,

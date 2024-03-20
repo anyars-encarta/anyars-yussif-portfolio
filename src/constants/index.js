@@ -30,8 +30,8 @@ import {
   shopify,
   githubprofilefinder,
   qrcodegenerator,
-  jobit,
-  tripguide,
+  scrollprogressindicator,
+  imageslider,
   threejs,
   DVLA,
   GHS,
@@ -294,26 +294,49 @@ const projects = [
     source_code_link: "https://github.com/anyars-encarta/qr-code-generator",
   },
   {
-    name: "Trip Guide",
+    name: "Scroll Progress Indicator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Scroll Progress Indicator is an interactive app that displays the progress of a user scrolling through the page. The progress is displayed both by a progress bar and by percentage. This scroll progress indicator could be integrated into any app that requires a similar functionality.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "webpack",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    live_code_link: "#",
-    source_code_link: "https://github.com/",
+    image: scrollprogressindicator,
+    live_code_link: "https://anyars-encarta.github.io/scroll-progress-indicator/",
+    source_code_link: "https://github.com/anyars-encarta/scroll-progress-indicator",
+  },
+
+  {
+    name: "Image Slider",
+    description:
+      "Encarta Image Slider is an interactive app that fetches images from an API endpoint. Users could slide through the images by clicking on the left and right arrows at the extreme ends of the images. Users could also jump to specific images by clicking on the individual circle indicators at the bottom of the images.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webpack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imageslider,
+    live_code_link: "https://anyars-encarta.github.io/encarta-image-slider/",
+    source_code_link: "https://github.com/anyars-encarta/encarta-image-slider",
   },
 ];
 
