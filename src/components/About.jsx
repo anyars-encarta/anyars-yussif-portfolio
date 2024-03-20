@@ -2,9 +2,20 @@ import React from 'react';
 import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { services } from '../constants';
+import { socialNetworks, services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../higher-order-component';
+
+
+const SocialsCard = ({ name, icon }) => (
+  <motion.div variants={fadeIn("right", "", 0.1, 1)} className='mt-4'>
+    <img
+      src={icon}
+      alt={name}
+      className='border-2 border-secondary bg-secondary w-10 h-10 rounded-full object-cover cursor-pointer'
+    />
+  </motion.div>
+);
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -38,12 +49,12 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variance={textVariant()}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+      <motion.p variants={fadeIn("left", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         As a software developer, I leverage my coding
         expertise and problem - solving skills to design,
         debug, test, and collaborate on innovative solutions.
@@ -52,6 +63,14 @@ const About = () => {
         learning and adapting to enhance their implementation,
         deployment, and iteration.
       </motion.p>
+
+      <div className='flex flex-wrap gap-5'>
+        {
+          socialNetworks.map((socialNetwork, index) => (
+            <SocialsCard key={socialNetwork.name} index={index} {...socialNetwork} />
+          ))
+        }
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {

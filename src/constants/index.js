@@ -1,4 +1,9 @@
 import {
+  github,
+  linkedin,
+  twitter,
+  medium,
+  youtube,
   mobile,
   backend,
   creator,
@@ -24,6 +29,29 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+
+const socialNetworks = [
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "linkedin",
+    icon: linkedin,
+  },
+  {
+    name: "twitter",
+    icon: twitter,
+  },
+  {
+    name: "medium",
+    icon: medium,
+  },
+  {
+    name: "youtube",
+    icon: youtube,
+  },
+];
 
 export const navLinks = [
   {
@@ -258,4 +286,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { socialNetworks, services, technologies, experiences, testimonials, projects };
