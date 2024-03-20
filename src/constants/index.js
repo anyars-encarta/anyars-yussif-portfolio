@@ -4,6 +4,9 @@ import {
   twitter,
   medium,
   youtube,
+  facebook,
+  instagram,
+  stackoverflow,
   mobile,
   backend,
   creator,
@@ -34,22 +37,42 @@ const socialNetworks = [
   {
     name: "github",
     icon: github,
+    link: 'https://github.com/anyars-encarta',
   },
   {
     name: "linkedin",
     icon: linkedin,
+    link: 'https://www.linkedin.com/in/anyars-yussif/',
   },
   {
     name: "twitter",
     icon: twitter,
+    link: 'https://twitter.com/anyarsencarta',
   },
   {
     name: "medium",
     icon: medium,
+    link: 'https://medium.com/@anyarsencarta',
   },
   {
     name: "youtube",
     icon: youtube,
+    link: 'www.youtube.com/@anyarsencarta',
+  },
+  {
+    name: "facebook",
+    icon: facebook,
+    link: 'https://web.facebook.com/encartadegreat/',
+  },
+  {
+    name: "instagram",
+    icon: instagram,
+    link: 'https://www.instagram.com/anyarsyussif/',
+  },
+  {
+    name: "stackoverflow",
+    icon: stackoverflow,
+    link: 'https://stackoverflow.com/users/22085924/anyars-yussif',
   },
 ];
 

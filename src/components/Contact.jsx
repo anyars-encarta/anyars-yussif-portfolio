@@ -2,9 +2,21 @@ import { useState, useRef } from "react";
 import { motion } from 'framer-motion';
 import emailjs from "@emailjs/browser";
 import styles from "../styles";
+import { socialNetworks } from '../constants';
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../higher-order-component";
-import { slideIn } from "../utils/motion";
+import { fadeIn, slideIn } from "../utils/motion";
+
+const SocialsCard = ({ name, icon, link }) => (
+  <motion.div variants={fadeIn("right", "", 0.1, 1)} className='mt-4'>
+    <img
+      src={icon}
+      alt={name}
+      className='bg-secondary w-10 h-10 rounded-full object-cover cursor-pointer transition-transform hover:scale-110'
+      onClick={() => window.open(link, '_blank')}
+    />
+  </motion.div>
+);
 
 const Contact = () => {
   const formRef = useRef();
@@ -117,6 +129,14 @@ const Contact = () => {
             }
           </button>
         </form>
+
+        <div className='flex justify-center flex-wrap gap-5 mt-5'>
+          {
+            socialNetworks.map((socialNetwork, index) => (
+              <SocialsCard key={socialNetwork.name} index={index} {...socialNetwork} />
+            ))
+          }
+        </div>
       </motion.div>
 
       <motion.div

@@ -8,6 +8,9 @@ import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
 import medium from "./medium.png";
 import youtube from "./youtube.png";
+import facebook from "./facebook.png";
+import instagram from "./instagram.png";
+import stackoverflow from "./stackoverflow.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -45,6 +48,9 @@ export {
   twitter,
   medium,
   youtube,
+  facebook,
+  instagram,
+  stackoverflow,
   menu,
   close,
   css,

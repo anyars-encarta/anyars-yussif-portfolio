@@ -6,13 +6,13 @@ import { socialNetworks, services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../higher-order-component';
 
-
-const SocialsCard = ({ name, icon }) => (
+const SocialsCard = ({ name, icon, link }) => (
   <motion.div variants={fadeIn("right", "", 0.1, 1)} className='mt-4'>
     <img
       src={icon}
       alt={name}
-      className='border-2 border-secondary bg-secondary w-10 h-10 rounded-full object-cover cursor-pointer'
+      className='bg-secondary w-10 h-10 rounded-full object-cover cursor-pointer transition-transform hover:scale-110'
+      onClick={() => window.open(link, '_blank')}
     />
   </motion.div>
 );
