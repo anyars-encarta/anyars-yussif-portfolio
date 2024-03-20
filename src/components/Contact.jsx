@@ -7,16 +7,28 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../higher-order-component";
 import { fadeIn, slideIn } from "../utils/motion";
 
-const SocialsCard = ({ name, icon, link }) => (
-  <motion.div variants={fadeIn("right", "", 0.1, 1)} className='mt-4'>
-    <img
-      src={icon}
-      alt={name}
-      className='bg-secondary w-10 h-10 rounded-full object-cover cursor-pointer transition-transform hover:scale-110'
-      onClick={() => window.open(link, '_blank')}
-    />
-  </motion.div>
-);
+const SocialsCard = ({ name, icon, link }) => {
+  const [showName, setShowName] = useState('-');
+
+  const handleHover = (name) => {
+    setShowName(name);
+    console.log(showName)
+  };
+
+  return (
+    <motion.div variants={fadeIn("right", "", 0.1, 1)} className='mt-4 flex flex-col justify-center items-center'>
+      <img
+        src={icon}
+        alt={name}
+        className='bg-secondary w-10 h-10 rounded-full object-cover cursor-pointer transition-transform hover:scale-110'
+        onMouseEnter={() => handleHover(name)}
+        onMouseLeave={() => setShowName('-')}
+        onClick={() => window.open(link, '_blank')}
+      />
+      <p className={`${showName === '-' ? "text-black-200" : "text-secondary"} mt-2`}>{showName}</p>
+    </motion.div>
+  )
+};
 
 const Contact = () => {
   const formRef = useRef();
