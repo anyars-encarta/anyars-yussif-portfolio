@@ -267,6 +267,7 @@ const projects = [
       },
     ],
     image: githubprofilefinder,
+    live_code_link: "https://anyars-encarta.github.io/github-profile-finder/",
     source_code_link: "https://github.com/anyars-encarta/github-profile-finder",
   },
   {
@@ -288,6 +289,7 @@ const projects = [
       },
     ],
     image: jobit,
+    live_code_link: "#",
     source_code_link: "https://github.com/",
   },
   {
@@ -309,6 +311,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    live_code_link: "#",
     source_code_link: "https://github.com/",
   },
 ];

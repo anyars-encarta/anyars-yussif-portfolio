@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live_stream from "./live_stream.png";
 import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
 import medium from "./medium.png";
@@ -50,6 +51,7 @@ export {
   mobile,
   web,
   github,
+  live_stream,
   linkedin,
   twitter,
   medium,
