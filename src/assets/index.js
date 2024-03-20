@@ -41,6 +41,7 @@ import BMC from "./company/BMC.png";
 import microverse from "./company/microverse.png";
 
 import githubprofilefinder from "./githubprofilefinder.png";
+import qrcodegenerator from "./qrcodegenerator.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -80,6 +81,7 @@ export {
   starbucks,
   tesla,
   githubprofilefinder,
+  qrcodegenerator,
   jobit,
   tripguide,
   DVLA,

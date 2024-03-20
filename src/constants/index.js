@@ -29,6 +29,7 @@ import {
   tesla,
   shopify,
   githubprofilefinder,
+  qrcodegenerator,
   jobit,
   tripguide,
   threejs,
@@ -271,26 +272,26 @@ const projects = [
     source_code_link: "https://github.com/anyars-encarta/github-profile-finder",
   },
   {
-    name: "Job IT",
+    name: "QR Code Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "QR Code Generator is an interactive app that generates QR Codes based on user's input. It uses React's QRCode third party library. The QR Code is generated based on what the user types in the input field. This app could be integrated into any app that requires QR Code generation functionality.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "webpack",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    live_code_link: "#",
-    source_code_link: "https://github.com/",
+    image: qrcodegenerator,
+    live_code_link: "https://anyars-encarta.github.io/qr-code-generator/",
+    source_code_link: "https://github.com/anyars-encarta/qr-code-generator",
   },
   {
     name: "Trip Guide",
