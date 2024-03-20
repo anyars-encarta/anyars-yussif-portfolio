@@ -27,7 +27,7 @@ import threejs from "./tech/threejs.svg";
 
 import ruby from "./tech/ruby.png";
 import postgresql from "./tech/postgresql.png";
-import sqlserver from "./tech/sqlserver.png";
+import rails from "./tech/rails.png";
 import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
@@ -71,7 +71,7 @@ export {
   threejs,
   ruby,
   postgresql,
-  sqlserver,
+  rails,
   mysql,
   meta,
   shopify,

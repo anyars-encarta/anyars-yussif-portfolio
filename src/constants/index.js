@@ -22,7 +22,7 @@ import {
   git,
   ruby,
   postgresql,
-  sqlserver,
+  rails,
   mysql,
   meta,
   starbucks,
@@ -160,10 +160,10 @@ const technologies = [
     name: "PostgreSQL",
     icon: postgresql,
   },
-  // {
-  //   name: "SQL Server",
-  //   icon: sqlserver,
-  // },
+  {
+    name: "Ruby on Rails",
+    icon: rails,
+  },
   // {
   //   name: "MySQL",
   //   icon: mysql,
