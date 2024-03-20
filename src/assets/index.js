@@ -32,6 +32,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import DVLA from "./company/DVLA.png";
+import GHS from "./company/GHS.png";
+import BMC from "./company/BMC.png";
+import microverse from "./company/microverse.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -73,4 +77,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  DVLA,
+  GHS,
+  BMC,
+  microverse,
 };
