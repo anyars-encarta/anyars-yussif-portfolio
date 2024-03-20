@@ -39,7 +39,7 @@ import GHS from "./company/GHS.png";
 import BMC from "./company/BMC.png";
 import microverse from "./company/microverse.png";
 
-import carrent from "./carrent.png";
+import githubprofilefinder from "./githubprofilefinder.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -77,7 +77,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  githubprofilefinder,
   jobit,
   tripguide,
   DVLA,

@@ -28,7 +28,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  githubprofilefinder,
   jobit,
   tripguide,
   threejs,
@@ -249,25 +249,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GitHub Profile Finder",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "GitHub Profile Finder is an interactive app that fetches user Github account information based on a specified username search string. The app makes use of the GitHub's public API. The API requests are currently limited to the 60 requests per hour due to GitHub's authentication policies.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Webpack",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: githubprofilefinder,
+    source_code_link: "https://github.com/anyars-encarta/github-profile-finder",
   },
   {
     name: "Job IT",
