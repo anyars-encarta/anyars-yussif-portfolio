@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live_stream from "./live_stream.png";
 import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
 import medium from "./medium.png";
@@ -39,9 +40,21 @@ import GHS from "./company/GHS.png";
 import BMC from "./company/BMC.png";
 import microverse from "./company/microverse.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import githubprofilefinder from "./githubprofilefinder.png";
+import qrcodegenerator from "./qrcodegenerator.png";
+import scrollprogressindicator from "./scrollprogressindicator.png";
+import imageslider from "./imageslider.png";
+import starrating from "./starrating.png";
+import randomcolorgenerator from './randomcolorgenerator.png';
+import accordion from './accordion.png';
+import book_store from './book_store.png';
+import math_magician from './math_magician.png';
+import awesome_books from './awesome_books.png';
+import qi_summit from './qi_summit.png';
+import to_do_list from './to_do_list.png';
+import to_do_app from './to_do_app.png';
+import leaderboard from './leaderboard.png';
+import series_review from './series_review.png';
 
 export {
   logo,
@@ -50,6 +63,7 @@ export {
   mobile,
   web,
   github,
+  live_stream,
   linkedin,
   twitter,
   medium,
@@ -77,9 +91,21 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  githubprofilefinder,
+  qrcodegenerator,
+  scrollprogressindicator,
+  imageslider,
+  starrating,
+  randomcolorgenerator,
+  accordion,
+  book_store,
+  math_magician,
+  awesome_books,
+  qi_summit,
+  to_do_list,
+  to_do_app,
+  leaderboard,
+  series_review,
   DVLA,
   GHS,
   BMC,
