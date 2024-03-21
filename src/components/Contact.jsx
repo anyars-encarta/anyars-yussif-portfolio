@@ -47,16 +47,16 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
+    const SERVICE = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+    const TEMPLATE = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+    const PUBLIC_KEY = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
+    
     e.preventDefault();
     setLoading(true);
 
-    // public key: uvctupjVTJeHiQqzg
-    // template_5pne1yr
-    // service_wntpknv
-
     emailjs.send(
-      'service_wntpknv',
-      'template_5pne1yr',
+      SERVICE,
+      TEMPLATE,
       {
         from_name: form.name,
         to_name: 'Anyars',
@@ -64,7 +64,7 @@ const Contact = () => {
         to_email: 'anyarsencarta@gmail.com',
         message: form.message,
       },
-      'uvctupjVTJeHiQqzg'
+      PUBLIC_KEY
     ).then(() => {
       setLoading(false);
       alert('Thank you. I will get back to you as soon as possible.')
