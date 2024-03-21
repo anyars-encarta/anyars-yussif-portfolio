@@ -55,6 +55,9 @@ import to_do_list from './to_do_list.png';
 import to_do_app from './to_do_app.png';
 import leaderboard from './leaderboard.png';
 import series_review from './series_review.png';
+import eugene from './feedbacks/eugene.png'
+import kennedy from './feedbacks/kennedy.png';
+import jawad from './feedbacks/jawad.png';
 
 export {
   logo,
@@ -110,4 +113,7 @@ export {
   GHS,
   BMC,
   microverse,
+  eugene,
+  kennedy,
+  jawad,
 };
