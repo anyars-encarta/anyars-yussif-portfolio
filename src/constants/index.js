@@ -42,6 +42,7 @@ import {
   to_do_list,
   to_do_app,
   leaderboard,
+  series_review,
   threejs,
   DVLA,
   GHS,
@@ -457,28 +458,28 @@ const projects = [
     live_code_link: "https://anyars-encarta.github.io/math-magician/",
     source_code_link: "https://github.com/anyars-encarta/math-magician",
   },
-  {
-    name: "Awesome Books",
-    description:
-      "Awesome Books is a simple program for adding a list of books. This project was built with HTML, CSS and JavaScript. The page displays books added and gives the chance to remove books from the list.",
-    tags: [
-      {
-        name: "HTML 5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS 3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: awesome_books,
-    live_code_link: "https://mulugithub.github.io/Awesome_Books/",
-    source_code_link: "https://github.com/anyars-encarta/Awesome-Books",
-  },
+  // {
+  //   name: "Awesome Books",
+  //   description:
+  //     "Awesome Books is a simple program for adding a list of books. This project was built with HTML, CSS and JavaScript. The page displays books added and gives the chance to remove books from the list.",
+  //   tags: [
+  //     {
+  //       name: "HTML 5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS 3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: awesome_books,
+  //   live_code_link: "https://mulugithub.github.io/Awesome_Books/",
+  //   source_code_link: "https://github.com/anyars-encarta/Awesome-Books",
+  // },
   // {
   //   name: "Quiality Improvement Summit 2023",
   //   description:
@@ -566,6 +567,28 @@ const projects = [
     image: leaderboard,
     live_code_link: "https://anyars-encarta.github.io/Leaderboard-List-App/dist/",
     source_code_link: "https://github.com/anyars-encarta/Leaderboard-List-App",
+  },
+  {
+    name: "Hotflix Series Review Portal",
+    description:
+      "Hotflix Series Review Portal is an app developed where users could pick their favourite movies, like and add comments to them. This app makes use of two APIs; The movies are fetched from api.tvmaze.com and the added likes and comments are saved to https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps involvement API. On app launch, the movies and their respective likes and comments are fetched from both API respectively.",
+    tags: [
+      {
+        name: "HTML 5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS 3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: series_review,
+    live_code_link: "https://anyars-encarta.github.io/Series-Review-Portal/dist/",
+    source_code_link: "https://github.com/anyars-encarta/Series-Review-Portal",
   },
 ];
 

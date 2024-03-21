@@ -54,6 +54,7 @@ import qi_summit from './qi_summit.png';
 import to_do_list from './to_do_list.png';
 import to_do_app from './to_do_app.png';
 import leaderboard from './leaderboard.png';
+import series_review from './series_review.png';
 
 export {
   logo,
@@ -104,6 +105,7 @@ export {
   to_do_list,
   to_do_app,
   leaderboard,
+  series_review,
   DVLA,
   GHS,
   BMC,
