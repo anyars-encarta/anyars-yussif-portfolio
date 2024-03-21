@@ -355,116 +355,116 @@ const projects = [
     live_code_link: "https://anyars-encarta.github.io/encarta-image-slider/",
     source_code_link: "https://github.com/anyars-encarta/encarta-image-slider",
   },
-  {
-    name: "Star Rating",
-    description:
-      "Encarta Stars Rating is an interactive app with a functionality to give stars rating. The stars are highlighted as the user hovers over them. The highlight stops on a particular star the user clicks on.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "webpack",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: starrating,
-    live_code_link: "https://anyars-encarta.github.io/encarta-star-rating/",
-    source_code_link: "https://github.com/anyars-encarta/encarta-star-rating",
-  },
-  {
-    name: "Random Color Generator",
-    description:
-      "Encarta Random Color Generator is an interactive app with a functionality to generate and change the background color of the app. The colors could be generated using either the HEX or the RGB format.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "webpack",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: randomcolorgenerator,
-    live_code_link: "https://anyars-encarta.github.io/encarta-random-color-generator/",
-    source_code_link: "https://github.com/anyars-encarta/encarta-random-color-generator",
-  },
-  {
-    name: "Accordion",
-    description:
-      "Encarta Accordion is an interactive app with an expand/collapse action. The details for each heading is displayed when the user clicks on the heading. Once one header is expanded, all other expanded headings are closed automatically. There is an option to enable multiple selection that allows the user to expand multiple headings at the same time.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "webpack",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: accordion,
-    live_code_link: "https://anyars-encarta.github.io/encarta-accordion/",
-    source_code_link: "https://github.com/anyars-encarta/encarta-accordion",
-  },
-  {
-    name: "Book Store",
-    description:
-      "The Book Store app was designed to manage variety of book collections. The user can add books as well as view variety of books available. The user can also view their reading progress of each book. Though that functionality has not been implemented yet, the visual display has been developed to enhance the user interface and for users to understand how the app works. The books added are stored in the local storage of the users computer. On the launch of the app, the books are fetched from the local storage and displayed on the UI.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: book_store,
-    live_code_link: "https://anyars-encarta.github.io/book-store/",
-    source_code_link: "https://github.com/anyars-encarta/book-store",
-  },
-  {
-    name: "Math Magician",
-    description:
-      "This is a Math Magician app designed to handle and perform mathematical calculations. It has a Home Page which welcomes users to the app, a Calculator page which shows the calculator for calculations and a Quote page which displays quotes tht refresh every 15 seconds.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "webpack",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: math_magician,
-    live_code_link: "https://anyars-encarta.github.io/math-magician/",
-    source_code_link: "https://github.com/anyars-encarta/math-magician",
-  },
+  // {
+  //   name: "Star Rating",
+  //   description:
+  //     "Encarta Stars Rating is an interactive app with a functionality to give stars rating. The stars are highlighted as the user hovers over them. The highlight stops on a particular star the user clicks on.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "webpack",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: starrating,
+  //   live_code_link: "https://anyars-encarta.github.io/encarta-star-rating/",
+  //   source_code_link: "https://github.com/anyars-encarta/encarta-star-rating",
+  // },
+  // {
+  //   name: "Random Color Generator",
+  //   description:
+  //     "Encarta Random Color Generator is an interactive app with a functionality to generate and change the background color of the app. The colors could be generated using either the HEX or the RGB format.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "webpack",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: randomcolorgenerator,
+  //   live_code_link: "https://anyars-encarta.github.io/encarta-random-color-generator/",
+  //   source_code_link: "https://github.com/anyars-encarta/encarta-random-color-generator",
+  // },
+  // {
+  //   name: "Accordion",
+  //   description:
+  //     "Encarta Accordion is an interactive app with an expand/collapse action. The details for each heading is displayed when the user clicks on the heading. Once one header is expanded, all other expanded headings are closed automatically. There is an option to enable multiple selection that allows the user to expand multiple headings at the same time.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "webpack",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: accordion,
+  //   live_code_link: "https://anyars-encarta.github.io/encarta-accordion/",
+  //   source_code_link: "https://github.com/anyars-encarta/encarta-accordion",
+  // },
+  // {
+  //   name: "Book Store",
+  //   description:
+  //     "The Book Store app was designed to manage variety of book collections. The user can add books as well as view variety of books available. The user can also view their reading progress of each book. Though that functionality has not been implemented yet, the visual display has been developed to enhance the user interface and for users to understand how the app works. The books added are stored in the local storage of the users computer. On the launch of the app, the books are fetched from the local storage and displayed on the UI.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "redux",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: book_store,
+  //   live_code_link: "https://anyars-encarta.github.io/book-store/",
+  //   source_code_link: "https://github.com/anyars-encarta/book-store",
+  // },
+  // {
+  //   name: "Math Magician",
+  //   description:
+  //     "This is a Math Magician app designed to handle and perform mathematical calculations. It has a Home Page which welcomes users to the app, a Calculator page which shows the calculator for calculations and a Quote page which displays quotes tht refresh every 15 seconds.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "webpack",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: math_magician,
+  //   live_code_link: "https://anyars-encarta.github.io/math-magician/",
+  //   source_code_link: "https://github.com/anyars-encarta/math-magician",
+  // },
   // {
   //   name: "Awesome Books",
   //   description:
@@ -531,72 +531,72 @@ const projects = [
   //   live_code_link: "https://anyars-encarta.github.io/Personal-to-Do-App/",
   //   source_code_link: "https://github.com/anyars-encarta/Personal-to-Do-App",
   // },
-  {
-    name: "To Do App",
-    description:
-      "To Do App is a program for keeping track of my to do activities with dates functionality. This project was built with HTML, CSS and JavaScript. The page displays tasks added to the list, with options to edit or remove tasks from the list.",
-    tags: [
-      {
-        name: "HTML 5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS 3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: to_do_app,
-    live_code_link: "https://anyars-encarta.github.io/To-do-list/dist/",
-    source_code_link: "https://github.com/anyars-encarta/To-do-list",
-  },
-  {
-    name: "Leaderboard",
-    description:
-      "This is a Leaderboard List App project to display scores of players. The added scores are saved to the Cloud Functions Engagement API. They are also preserved to the localStorage. On app launch, the saved scores are fetched from the Cloud Functions Engagement API.",
-    tags: [
-      {
-        name: "HTML 5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS 3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: leaderboard,
-    live_code_link: "https://anyars-encarta.github.io/Leaderboard-List-App/dist/",
-    source_code_link: "https://github.com/anyars-encarta/Leaderboard-List-App",
-  },
-  {
-    name: "Hotflix Series Review Portal",
-    description:
-      "Hotflix Series Review Portal is an app developed where users could pick their favourite movies, like and add comments to them. This app makes use of two APIs; The movies are fetched from api.tvmaze.com and the added likes and comments are saved to https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps involvement API. On app launch, the movies and their respective likes and comments are fetched from both API respectively.",
-    tags: [
-      {
-        name: "HTML 5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS 3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: series_review,
-    live_code_link: "https://anyars-encarta.github.io/Series-Review-Portal/dist/",
-    source_code_link: "https://github.com/anyars-encarta/Series-Review-Portal",
-  },
+  // {
+  //   name: "To Do App",
+  //   description:
+  //     "To Do App is a program for keeping track of my to do activities with dates functionality. This project was built with HTML, CSS and JavaScript. The page displays tasks added to the list, with options to edit or remove tasks from the list.",
+  //   tags: [
+  //     {
+  //       name: "HTML 5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS 3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: to_do_app,
+  //   live_code_link: "https://anyars-encarta.github.io/To-do-list/dist/",
+  //   source_code_link: "https://github.com/anyars-encarta/To-do-list",
+  // },
+  // {
+  //   name: "Leaderboard",
+  //   description:
+  //     "This is a Leaderboard List App project to display scores of players. The added scores are saved to the Cloud Functions Engagement API. They are also preserved to the localStorage. On app launch, the saved scores are fetched from the Cloud Functions Engagement API.",
+  //   tags: [
+  //     {
+  //       name: "HTML 5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS 3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: leaderboard,
+  //   live_code_link: "https://anyars-encarta.github.io/Leaderboard-List-App/dist/",
+  //   source_code_link: "https://github.com/anyars-encarta/Leaderboard-List-App",
+  // },
+  // {
+  //   name: "Hotflix Series Review Portal",
+  //   description:
+  //     "Hotflix Series Review Portal is an app developed where users could pick their favourite movies, like and add comments to them. This app makes use of two APIs; The movies are fetched from api.tvmaze.com and the added likes and comments are saved to https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps involvement API. On app launch, the movies and their respective likes and comments are fetched from both API respectively.",
+  //   tags: [
+  //     {
+  //       name: "HTML 5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS 3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: series_review,
+  //   live_code_link: "https://anyars-encarta.github.io/Series-Review-Portal/dist/",
+  //   source_code_link: "https://github.com/anyars-encarta/Series-Review-Portal",
+  // },
 ];
 
 export { socialNetworks, services, technologies, experiences, testimonials, projects };
