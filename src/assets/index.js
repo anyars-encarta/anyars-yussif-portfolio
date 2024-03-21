@@ -44,7 +44,14 @@ import githubprofilefinder from "./githubprofilefinder.png";
 import qrcodegenerator from "./qrcodegenerator.png";
 import scrollprogressindicator from "./scrollprogressindicator.png";
 import imageslider from "./imageslider.png";
-import tripguide from "./tripguide.png";
+import starrating from "./starrating.png";
+import randomcolorgenerator from './randomcolorgenerator.png';
+import accordion from './accordion.png';
+import book_store from './book_store.png';
+import math_magician from './math_magician.png';
+import awesome_books from './awesome_books.png';
+import qi_summit from './qi_summit.png';
+import to_do_list from './to_do_list.png';
 
 export {
   logo,
@@ -85,7 +92,14 @@ export {
   qrcodegenerator,
   scrollprogressindicator,
   imageslider,
-  tripguide,
+  starrating,
+  randomcolorgenerator,
+  accordion,
+  book_store,
+  math_magician,
+  awesome_books,
+  qi_summit,
+  to_do_list,
   DVLA,
   GHS,
   BMC,
