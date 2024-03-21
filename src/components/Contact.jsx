@@ -6,6 +6,8 @@ import { socialNetworks } from '../constants';
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../higher-order-component";
 import { fadeIn, slideIn } from "../utils/motion";
+import dotenv from 'dotenv';
+dotenv.config();
 
 const SocialsCard = ({ name, icon, link }) => {
   const [showName, setShowName] = useState('-');
@@ -40,6 +42,10 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
+  const SERVICE = process.env.SERVICE;
+  const TEMPLATE = process.env.TEMPLATE;
+  const PUBLIC_KEY = process.env.PUBLIC_KEY;
+
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -50,13 +56,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // public key: uvctupjVTJeHiQqzg
-    // template_5pne1yr
-    // service_wntpknv
-
     emailjs.send(
-      'service_wntpknv',
-      'template_5pne1yr',
+      SERVICE,
+      TEMPLATE,
       {
         from_name: form.name,
         to_name: 'Anyars',
@@ -64,7 +66,7 @@ const Contact = () => {
         to_email: 'anyarsencarta@gmail.com',
         message: form.message,
       },
-      'uvctupjVTJeHiQqzg'
+      PUBLIC_KEY
     ).then(() => {
       setLoading(false);
       alert('Thank you. I will get back to you as soon as possible.')
