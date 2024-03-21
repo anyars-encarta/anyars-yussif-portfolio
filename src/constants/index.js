@@ -48,6 +48,9 @@ import {
   GHS,
   BMC,
   microverse,
+  eugene,
+  kennedy,
+  jawad,
 } from "../assets";
 
 const socialNetworks = [
@@ -235,27 +238,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I have had the privilege of working closely with Anyars Yussif and consider him an outstanding full-stack developer. Anyars is not just a proficient coder; he is a dynamic problem solver with an unparalleled ability to navigate complex challenges.",
+    name: "Eugene (Omwomo) Oduor",
+    designation: "Alumni",
+    company: "Microverse",
+    image: eugene,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Anyars' remarkable technical acumen, astute approach to problem-solving, and meticulous attention to detail were truly exceptional. He proved to be a proactive participant in team deliberations, displaying adept communication skills and fostering a constructive work atmosphere.",
+    name: "Kennedy Owusu",
+    designation: "Alumni",
+    company: "Microverse",
+    image: kennedy,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Anyars has a strong foundation in software development and is well-versed in various programming languages and frameworks. He has excellent skills in both frontend and backend technologies, allowing him to develop comprehensive and well-rounded software solutions.",
+    name: "Mozamel Jawad",
+    designation: "Alumni",
+    company: "Microverse",
+    image: jawad,
   },
 ];
 
