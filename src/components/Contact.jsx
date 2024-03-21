@@ -6,8 +6,6 @@ import { socialNetworks } from '../constants';
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../higher-order-component";
 import { fadeIn, slideIn } from "../utils/motion";
-import dotenv from 'dotenv';
-dotenv.config();
 
 const SocialsCard = ({ name, icon, link }) => {
   const [showName, setShowName] = useState('-');
@@ -42,10 +40,6 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const SERVICE = process.env.SERVICE;
-  const TEMPLATE = process.env.TEMPLATE;
-  const PUBLIC_KEY = process.env.PUBLIC_KEY;
-
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -53,6 +47,10 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
+    const SERVICE = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+    const TEMPLATE = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+    const PUBLIC_KEY = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
+    
     e.preventDefault();
     setLoading(true);
 
