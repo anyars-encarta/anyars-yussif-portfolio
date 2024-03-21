@@ -52,6 +52,8 @@ import math_magician from './math_magician.png';
 import awesome_books from './awesome_books.png';
 import qi_summit from './qi_summit.png';
 import to_do_list from './to_do_list.png';
+import to_do_app from './to_do_app.png';
+import leaderboard from './leaderboard.png';
 
 export {
   logo,
@@ -100,6 +102,8 @@ export {
   awesome_books,
   qi_summit,
   to_do_list,
+  to_do_app,
+  leaderboard,
   DVLA,
   GHS,
   BMC,

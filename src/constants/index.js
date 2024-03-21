@@ -40,6 +40,8 @@ import {
   awesome_books,
   qi_summit,
   to_do_list,
+  to_do_app,
+  leaderboard,
   threejs,
   DVLA,
   GHS,
@@ -477,10 +479,54 @@ const projects = [
     live_code_link: "https://mulugithub.github.io/Awesome_Books/",
     source_code_link: "https://github.com/anyars-encarta/Awesome-Books",
   },
+  // {
+  //   name: "Quiality Improvement Summit 2023",
+  //   description:
+  //     "This is a website about Quality Improvement Summit 2023 organised by Encarta Change Managers Incorporated. The event aims at bringing individuals from different disciplines who are all passionate about Quality in all aspects of human endeavour.",
+  //   tags: [
+  //     {
+  //       name: "HTML 5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS 3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: qi_summit,
+  //   live_code_link: "https://anyars-encarta.github.io/First-Capstone/",
+  //   source_code_link: "https://github.com/anyars-encarta/First-Capstone",
+  // },
+  // {
+  //   name: "To Do List",
+  //   description:
+  //     "Personal to Do App is a program for keeping track of my to do activities with dates functionality. This project was built with HTML, CSS and JavaScript. The page displays tasks added to the list, with options to edit or remove tasks from the list.",
+  //   tags: [
+  //     {
+  //       name: "HTML 5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS 3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: to_do_list,
+  //   live_code_link: "https://anyars-encarta.github.io/Personal-to-Do-App/",
+  //   source_code_link: "https://github.com/anyars-encarta/Personal-to-Do-App",
+  // },
   {
-    name: "Quiality Improvement Summit 2023",
+    name: "To Do App",
     description:
-      "This is a website about Quality Improvement Summit 2023 organised by Encarta Change Managers Incorporated. The event aims at bringing individuals from different disciplines who are all passionate about Quality in all aspects of human endeavour.",
+      "To Do App is a program for keeping track of my to do activities with dates functionality. This project was built with HTML, CSS and JavaScript. The page displays tasks added to the list, with options to edit or remove tasks from the list.",
     tags: [
       {
         name: "HTML 5",
@@ -495,14 +541,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: qi_summit,
-    live_code_link: "https://anyars-encarta.github.io/First-Capstone/",
-    source_code_link: "https://github.com/anyars-encarta/First-Capstone",
+    image: to_do_app,
+    live_code_link: "https://anyars-encarta.github.io/To-do-list/dist/",
+    source_code_link: "https://github.com/anyars-encarta/To-do-list",
   },
   {
-    name: "To Do List",
+    name: "Leaderboard",
     description:
-      "Personal to Do App is a program for keeping track of my to do activities with dates functionality. This project was built with HTML, CSS and JavaScript. The page displays tasks added to the list, with options to edit or remove tasks from the list.",
+      "This is a Leaderboard List App project to display scores of players. The added scores are saved to the Cloud Functions Engagement API. They are also preserved to the localStorage. On app launch, the saved scores are fetched from the Cloud Functions Engagement API.",
     tags: [
       {
         name: "HTML 5",
@@ -517,9 +563,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: to_do_list,
-    live_code_link: "https://anyars-encarta.github.io/Personal-to-Do-App/",
-    source_code_link: "https://github.com/anyars-encarta/Personal-to-Do-App",
+    image: leaderboard,
+    live_code_link: "https://anyars-encarta.github.io/Leaderboard-List-App/dist/",
+    source_code_link: "https://github.com/anyars-encarta/Leaderboard-List-App",
   },
 ];
 
