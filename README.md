@@ -131,7 +131,7 @@ Install this project with the latest version of Git and a code editor.
 ### Usage
 
 To run the project, follow the link below:
-> [Visit live page of my Profile](https://anyars-encarta.github.io)
+> [Visit live page of my Profile](https://anyars-yussif-portfolio.vercel.app/)
 ### Deployment
 
 You can deploy this project using:
